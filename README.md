@@ -69,16 +69,16 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Jonas Arruda - jonas.arruda@uni-bonn.de
 
-Project Link: [https://github.com/github_username/repo](https://github.com/github_username/repo)
+Project Link: [https://github.com/arrjon/ode-nets](https://github.com/arrjon/ode-nets)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
+* [https://www.tensorflow.org/tutorials/images/segmentation](TensorFlow)
 * []()
 * []()
 
