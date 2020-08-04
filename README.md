@@ -4,29 +4,22 @@
 This repository is part of the bachelor thesis "Tiefe Neuronale Netze Mit Gewöhnlichen Differentialgleichungen" by Jonas Arruda.
 
 
-<!-- GETTING STARTED -->
-## Getting Started
+<!-- Packages -->
+## Packages
 
-To get a local copy up and running follow these simple steps.
+The following packages are need to run the project:
+* numpy
+* matplotlib
+* cv2
+* tensorflow (2.0 or higher)
+* tensorflow_datasets
+* [Python utilities for reading the STL-10 dataset](https://github.com/mttk/STL10)
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
-
-### Installation
- 
-1. Clone the repo
-```sh
-git clone https://github.com/github_username/repo.git
-```
-2. Install NPM packages
-```sh
-npm install
-```
+The following datasets need to be downloaded:
+* [CIFAR 10/100 (comes with tensorflow.keras.datasets)](https://www.cs.toronto.edu/~kriz/cifar.html)
+* [STL 10](https://cs.stanford.edu/~acoates/stl10/)
+* [Oxford-IIIT Pet Dataset (comes with tensorflow_datasets](https://www.robots.ox.ac.uk/~vgg/data/pets/)
+* [Berkeley DeepDrive](https://bdd-data.berkeley.edu)
 
 
 
@@ -39,47 +32,23 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/github_username/repo/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
 
 <!-- CONTACT -->
 ## Contact
 
 Jonas Arruda - jonas.arruda@uni-bonn.de
 
-Project Link: [https://github.com/arrjon/ode-nets](https://github.com/arrjon/ode-nets)
+Project Link: [Ode-Nets](https://github.com/arrjon/ode-nets)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* [https://www.tensorflow.org/tutorials/images/segmentation](TensorFlow)
-* []()
-* []()
+* [TensorFlow](https://www.tensorflow.org/tutorials/images/segmentation)
+* [Deep Neural Networks Motivated by Partial Differential Equation by Ruthotto and Haber (2018)](https://arxiv.org/abs/1804.04272)
+* [IMEXnet - A Forward Stable Deep Neuronal Network by Haber et al. (2019)](https://arxiv.org/pdf/1903.02639.pdf)
+* [Partial Differential Equations For Optimizing Deep Neural Networks by Chaudhari et al. (2017)](https://arxiv.org/abs/1704.04932)
+* [Python utilities for reading the STL-10 dataset by Tutek et al.](https://github.com/mttk/STL10)
 
 
