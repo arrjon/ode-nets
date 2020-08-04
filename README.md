@@ -4,6 +4,10 @@
 This repository is part of the bachelor thesis "Tiefe Neuronale Netze Mit Gewöhnlichen Differentialgleichungen" by Jonas Arruda.
 Thus, this project provides an implementation of stable neuronal networks motivated by ordinary differential equations.
 
+ODE-CNNs.ipynb: Implementation of the networks together with training and testing routines.
+
+stability-regions.ipynb: Depiction of the stability regions of the ODE-solvers used as basis for the neural networks.
+
 <!-- Packages -->
 ## Packages
 
