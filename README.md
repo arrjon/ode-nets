@@ -2,7 +2,7 @@
 ## About The Project
 
 This repository is part of the bachelor thesis "Tiefe Neuronale Netze Mit Gewöhnlichen Differentialgleichungen" by Jonas Arruda.
-
+Thus, this project provides an implementation of stable neuronal networks motivated by ordinary differential equations.
 
 <!-- Packages -->
 ## Packages
@@ -15,19 +15,11 @@ The following packages are need to run the project:
 * tensorflow_datasets
 * [Python utilities for reading the STL-10 dataset](https://github.com/mttk/STL10)
 
-The following datasets need to be downloaded:
+The following datasets are used:
 * [CIFAR 10/100 (comes with tensorflow.keras.datasets)](https://www.cs.toronto.edu/~kriz/cifar.html)
 * [STL 10](https://cs.stanford.edu/~acoates/stl10/)
 * [Oxford-IIIT Pet Dataset (comes with tensorflow_datasets](https://www.robots.ox.ac.uk/~vgg/data/pets/)
 * [Berkeley DeepDrive](https://bdd-data.berkeley.edu)
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
 
 
 
