@@ -49,7 +49,7 @@ First you have to specify the follwing parameters (if you want to run the script
 * test_blur=False # boolean: whether you want to test the networks against blurring the images
 
 The networks are saved in the path:
-~/cylce %i/%s/ % (cycle, optimizer.__name__)
+~gpu-tests/cylce %i/%s/ % (cycle, optimizer.__name__)
 
 <!-- CONTACT -->
 ## Contact
