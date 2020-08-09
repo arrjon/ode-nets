@@ -1,7 +1,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This repository is part of the bachelor thesis "Tiefe Neuronale Netze Mit Gewöhnlichen Differentialgleichungen" by Jonas Arruda.
+This repository is part of the bachelor thesis "Tiefe Neuronale Netze Mit Gewöhnlichen Differentialgleichungen" by Jonas Arruda, where the theoretical background is discused.
 Thus, this project provides an implementation of stable neuronal networks motivated by ordinary differential equations.
 
 ODE-CNNs.ipynb: Implementation of the networks together with training and testing routines.
@@ -30,11 +30,11 @@ The following datasets are used:
 
 First you have to specify the follwing parameters:
 * cycle = 1 # experiment number
-* num_classes = 20 # number of classes: 10=CIFAR10, 100=CIFAR100, '10b'=STL10, 3=Oxford IIIt Pet, 20=bdd100k
+* num_classes = 20 # defines the dataset used: 10=CIFAR10, 100=CIFAR100, '10b'=STL10, 3=Oxford IIIt Pet, 20=bdd100k
 * train=True # boolean: whether you want to train all the different networks for a given dataset. If you want to train only a specific network, you have to change the run_train_test function.
-* test_noise=False # boolean: whether you want to test your networks against noise. This function will load networks from the folder within the current cycle.
-* test_adversarial_attack=False # boolean: whether you want to test your networks against an adversarial attack
-* test_blur=False # boolean: whether you want to test your networks against blurring the images
+* test_noise=False # boolean: whether you want to test the networks against noise. This function will load networks from the folder within the current cycle.
+* test_adversarial_attack=False # boolean: whether you want to test the networks against an adversarial attack
+* test_blur=False # boolean: whether you want to test the networks against blurring the images
 
 <!-- CONTACT -->
 ## Contact
