@@ -28,7 +28,7 @@ The following datasets are used:
 <!-- Usage -->
 ## Usage
 
-First you have to specify the follwing parameters:
+First you have to specify the follwing parameters (if you want to run the script as it is):
 * cycle = 1 # experiment number
 * num_classes = 20 # defines the dataset used: 10=CIFAR10, 100=CIFAR100, '10b'=STL10, 3=Oxford IIIt Pet, 20=bdd100k
 * train=True # boolean: whether you want to train all the different networks for a given dataset. If you want to train only a specific network, you have to change the run_train_test function.
