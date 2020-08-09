@@ -1,7 +1,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This repository is part of the bachelor thesis "Tiefe Neuronale Netze Mit Gewöhnlichen Differentialgleichungen" by Jonas Arruda, where the theoretical background is discused.
+This repository is part of the bachelor thesis "Tiefe Neuronale Netze Mit Gewöhnlichen Differentialgleichungen" by Jonas Arruda, where the theoretical background of this code is discused.
 Thus, this project provides an implementation of stable neuronal networks motivated by ordinary differential equations.
 
 ODE-CNNs.ipynb: Implementation of the networks together with training and testing routines.
@@ -9,7 +9,7 @@ ODE-CNNs.ipynb: Implementation of the networks together with training and testin
 stability-regions.ipynb: Depiction of the stability regions of the ODE-solvers used as basis for the neural networks.
 
 <!-- Packages -->
-## Packages
+## Packages and Datasets
 
 The following packages are need to run the project:
 * numpy
@@ -22,7 +22,7 @@ The following packages are need to run the project:
 The following datasets are used:
 * [CIFAR 10/100 (comes with tensorflow.keras.datasets)](https://www.cs.toronto.edu/~kriz/cifar.html)
 * [STL 10](https://cs.stanford.edu/~acoates/stl10/)
-* [Oxford-IIIT Pet Dataset (comes with tensorflow_datasets](https://www.robots.ox.ac.uk/~vgg/data/pets/)
+* [Oxford-IIIT Pet Dataset (comes with tensorflow_datasets)](https://www.robots.ox.ac.uk/~vgg/data/pets/)
 * [Berkeley DeepDrive](https://bdd-data.berkeley.edu)
 
 <!-- Usage -->
