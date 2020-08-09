@@ -25,7 +25,17 @@ The following datasets are used:
 * [Oxford-IIIT Pet Dataset (comes with tensorflow_datasets](https://www.robots.ox.ac.uk/~vgg/data/pets/)
 * [Berkeley DeepDrive](https://bdd-data.berkeley.edu)
 
+<!-- Usage -->
+## Usage
 
+First you have to specify the follwing parameters:
+* cycle = 1 # experiment number
+* num_classes = 20 # number of classes: 10=CIFAR10, 100=CIFAR100, '10b'=STL10, 3=Oxford IIIt Pet, 20=bdd100k
+# train, test_noise, test_adversarial_attack, test_blur: boolean: test routines to run
+* train=True # boolean: whether you want to train all the different networks for a given dataset. If you want to train only a specific network, you have to change the run_train_test function.
+* test_noise=False # boolean: whether you want to test your networks against noise. This function will load networks from the folder within the current cycle.
+* test_adversarial_attack=False # boolean: whether you want to test your networks against an adversarial attack
+* test_blur=False # boolean: whether you want to test your networks against blurring the images
 
 <!-- CONTACT -->
 ## Contact
