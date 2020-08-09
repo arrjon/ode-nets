@@ -26,7 +26,7 @@ The following datasets are used:
 * [Berkeley DeepDrive](https://bdd-data.berkeley.edu)
 
 <!-- Usage -->
-## Usage
+## Usage (of ODE-CNNs.ipynb)
 
 First you have to specify the follwing parameters (if you want to run the script as it is):
 * cycle = 1 # experiment number
