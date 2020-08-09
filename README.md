@@ -8,7 +8,7 @@ ODE-CNNs.ipynb: Implementation of the networks together with training and testin
 
 stability-regions.ipynb: Depiction of the stability regions of the ODE-solvers used as basis for the neural networks.
 
-<!-- Packages -->
+<!-- PACKAGES -->
 ## Packages and Datasets
 
 The following packages are need to run the project:
@@ -25,7 +25,19 @@ The following datasets are used:
 * [Oxford-IIIT Pet Dataset (comes with tensorflow_datasets)](https://www.robots.ox.ac.uk/~vgg/data/pets/)
 * [Berkeley DeepDrive](https://bdd-data.berkeley.edu)
 
-<!-- Usage -->
+<!-- STRUCTURE -->
+## Structure of the Code
+
+* loading and normalzing the datasets
+* implementation of different kinds of neural network layers (motivated by ODEs) and their regularization
+* construction of the whole network as a Keras functional API model
+* functions needed for training (i.e. weight decay, (Sparse-)IoU-Metric)
+* various functions to generate pertubations (to test stability of the networks)
+* routine to train a model (parameters depening on dataset)
+* routine to test a model against pertubations
+* routine to train and test all different kinds of networks for one given dataset
+
+<!-- USAGE -->
 ## Usage (of ODE-CNNs.ipynb)
 
 First you have to specify the follwing parameters (if you want to run the script as it is):
@@ -36,14 +48,15 @@ First you have to specify the follwing parameters (if you want to run the script
 * test_adversarial_attack=False # boolean: whether you want to test the networks against an adversarial attack
 * test_blur=False # boolean: whether you want to test the networks against blurring the images
 
+The networks are saved in the path:
+~/cylce %i/%s/ % (cycle, optimizer.__name__)
+
 <!-- CONTACT -->
 ## Contact
 
 Jonas Arruda - jonas.arruda@uni-bonn.de
 
 Project Link: [Ode-Nets](https://github.com/arrjon/ode-nets)
-
-
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Main Acknowledgements (with regard to the code)
