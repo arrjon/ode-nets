@@ -59,7 +59,7 @@ Jonas Arruda - jonas.arruda@uni-bonn.de
 Project Link: [Ode-Nets](https://github.com/arrjon/ode-nets)
 
 <!-- ACKNOWLEDGEMENTS -->
-## Main Acknowledgements (with regard to the code)
+## Main Acknowledgements
 
 * [TensorFlow](https://www.tensorflow.org/tutorials/images/segmentation)
 * [Deep Neural Networks Motivated by Partial Differential Equation by Ruthotto and Haber (2018)](https://arxiv.org/abs/1804.04272)
