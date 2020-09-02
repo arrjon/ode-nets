@@ -53,11 +53,11 @@ The networks are saved in the path:
 
 <!-- RESULTS -->
 ## Results
-![Results with less training data](diagrams/Results with less training data.png)
-![Results CIFAR-10 : STL-10](diagrams/Results CIFAR-10 : STL-10.png)
-![Perturbations](diagrams/Perturbations.png)
-![/Results oxford IIIT-pet](diagrams/Results oxford IIIT-pet.png)
-![Results Berkeley DeepDrive](diagrams/Results Berkeley DeepDrive.png)
+![Results with less training data on CIAFR-10 & STL-10](diagrams/Results with less training data.png)
+![Results on CIFAR-10 & STL-10](diagrams/Results CIFAR-10 : STL-10.png)
+![Results with Perturbations](diagrams/Perturbations.png)
+![Results on Oxford IIIT-Pet](diagrams/Results oxford IIIT-pet.png)
+![Results on Berkeley DeepDrive](diagrams/Results Berkeley DeepDrive.png)
 
 
 <!-- CONTACT -->
