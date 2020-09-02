@@ -51,6 +51,15 @@ First you have to specify the follwing parameters (if you want to run the script
 The networks are saved in the path:
 ~gpu-tests/cylce %i/%s/ % (cycle, optimizer.__name__)
 
+<!-- RESULTS -->
+## Results
+![Results with less training data](diagrams/Results with less training data.png)
+![Results CIFAR-10 : STL-10](diagrams/Results CIFAR-10 : STL-10.png)
+![Perturbations](diagrams/Perturbations.png)
+![/Results oxford IIIT-pet](diagrams/Results oxford IIIT-pet.png)
+![Results Berkeley DeepDrive](diagrams/Results Berkeley DeepDrive.png)
+
+
 <!-- CONTACT -->
 ## Contact
 
